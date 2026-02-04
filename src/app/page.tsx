@@ -23,7 +23,7 @@ export default function Home() {
       <Header lang={lang} setLang={setLang} navLinks={data.navLinks} />
       <main className="flex-grow">
         <HeroSection data={data.hero} />
-        <AboutSection data={data.about} />
+        <AboutSection data={data.about} lang={lang} />
         <ExperienceSection data={data.experience} />
         <SkillsSection data={data.skills} />
         <ProjectsSection data={data.projects} />

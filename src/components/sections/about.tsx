@@ -4,11 +4,14 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Download } from 'lucide-react';
 
+import type { Language } from '@/lib/data';
+
 type AboutSectionProps = {
     data: typeof portfolioData.es.about;
+    lang: Language;
 };
 
-const AboutSection = ({ data }: AboutSectionProps) => {
+const AboutSection = ({ data, lang }: AboutSectionProps) => {
     return (
         <section id={data.id} className="container mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-4xl md:text-5xl font-headline font-bold text-center mb-12 text-primary text-glow">
@@ -36,7 +39,7 @@ const AboutSection = ({ data }: AboutSectionProps) => {
                                 {data.bio}
                             </p>
                             <a 
-                                href="/Hoja De Vida Ats - Adrian Samudio Pua.pdf" 
+                                href={lang === "en" ? "/Hoja De Vida-Adrian Samudio Pua-Ingles.pdf" : "/Hoja De Vida Ats - Adrian Samudio Pua.pdf"} 
                                 download 
                                 className="inline-block"
                             >
