@@ -195,7 +195,7 @@ const portfolioDataContent: { [key in Language]: PortfolioContent } = {
           title: "Aplicación Web Completa",
           description: "Una aplicación web multifuncional con un robusto backend y un frontend interactivo.",
           tags: ["React", "Node.js", "API"],
-          image: "https://picsum.photos/seed/101/600/400",
+          image: "/InProgress.png",
           imageHint: "web application interface"
         },
         {
@@ -342,7 +342,7 @@ const portfolioDataContent: { [key in Language]: PortfolioContent } = {
           title: "Full-Stack Web Application",
           description: "A multifunctional web application with a robust backend and an interactive frontend.",
           tags: ["React", "Node.js", "API"],
-          image: "https://picsum.photos/seed/101/600/400",
+          image: "/InProgress.png",
           imageHint: "web application interface"
         },
         {
