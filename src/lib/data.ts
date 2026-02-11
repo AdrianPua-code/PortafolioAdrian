@@ -146,6 +146,12 @@ const portfolioDataContent: { [key in Language]: PortfolioContent } = {
           company: "ReyparSAS",
           description: "Desarrollo de sitios web en WordPress y aplicaciones empresariales a medida con JavaScript, Python, PHP, CSS, Laravel y MySQL para optimizar funciones clave de la empresa.",
         },
+        {
+          date: "Febrero 2023 – Diciembre 2023",
+          title: "Desarrollador de Aplicaciones",
+          company: "Trébol Constructores",
+          description: "Diseño y desarrollo de aplicaciones orientadas a la optimización y automatización de procesos internos de la empresa, utilizando diversos lenguajes de programación.",
+        },
       ],
     },
     skills: {
@@ -292,6 +298,12 @@ const portfolioDataContent: { [key in Language]: PortfolioContent } = {
           title: "Web and Application Developer",
           company: "ReyparSAS",
           description: "Development of WordPress websites and custom enterprise applications with JavaScript, Python, PHP, CSS, Laravel, and MySQL, optimizing key functions within the company.",
+        },
+        {
+          date: "February 2023 – December 2023",
+          title: "Application Developer",
+          company: "Trébol Constructores",
+          description: "Design and development of applications aimed at optimizing and automating internal processes of the company, using various programming languages.",
         },
       ],
     },
